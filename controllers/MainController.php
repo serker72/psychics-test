@@ -74,13 +74,6 @@ class MainController extends Controller {
 			$this->view->params = $this->params;
 			return $this->view->render('table', true);
 		} else {
-			foreach($this->params['psychics'] as $key => $fio) {
-				$this->params['results']['reliability'][$key] = 0;
-			}
-			$this->params['results']['guesses'] = [];
-			
-			Session::set('results', $this->params['results']);
-			
 			$this->view->params = $this->params;
 			return $this->view->render('index');
 		}

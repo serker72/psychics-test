@@ -23,6 +23,12 @@ class App {
 		
 		$this->params['results'] = Session::get('results');
 		
+		if (empty($this->params['results']['reliability'])) {
+			foreach($this->params['psychics'] as $key => $fio) {
+				$this->params['results']['reliability'][$key] = 0;
+			}
+		}
+		
 		$controller = new MainController($this->params);
 		$controller->index();
 	}
