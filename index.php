@@ -6,7 +6,7 @@
  * E-Mail: serker72@gmail.com
  */
 
-require_once 'config/paths.php';
-require_once 'classes/App.php';
+require_once __DIR__ . '/config/paths.php';
+require_once __DIR__ . '/classes/App.php';
 
 $app = new App();

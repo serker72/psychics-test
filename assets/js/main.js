@@ -14,7 +14,6 @@ $(document).ready(function(){
 	// Обработкчик нажатия на кнопку "Загадать число"
 	$('#btn-guess-number').on('click', function () {
 		var guessNumber = getRandomInt(10, 100);
-		console.log('guessNumber', guessNumber);
 		$('span.guessed-number').html(guessNumber);
 		$('#btn-guess-number').attr('disabled', 'disabled');
 		$('#btn-get-guesses').removeAttr('disabled');

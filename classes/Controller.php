@@ -6,7 +6,7 @@
  * E-Mail: serker72@gmail.com
  */
 
-require_once 'classes\View.php';
+require_once __DIR__ . '/View.php';
 
 /**
  * Description of Controller
