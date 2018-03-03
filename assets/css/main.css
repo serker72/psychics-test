@@ -1,0 +1,36 @@
+/*
+Psychics Test
+Author: Kerimov Sergey
+E-Mail: serker72@gmail.com
+*/
+
+.content {
+	min-height: 100%;
+	height: 100%;
+}
+
+.reliability, .testing {
+	margin: 20px auto;
+	width: 90%;
+}
+
+.current {
+	margin: 20px 0;
+}
+
+.guessed-number-title {
+	font-size: 120%;
+}
+.guessed-number {
+	font-size: 200%;
+	font-weight: bold;
+}
+
+.footer {
+	margin: 50px 0 0 0;
+}
+.copy {
+	background-color: #000;
+	color: #fff;
+	padding: 10px 20px;
+}
